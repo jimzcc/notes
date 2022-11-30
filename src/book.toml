@@ -9,3 +9,5 @@ title = "notes"
 build-dir = "../docs"
 create-missing = true
 
+[output.html]
+no-section-label = true
