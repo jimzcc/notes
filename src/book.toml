@@ -1,0 +1,11 @@
+[book]
+authors = ["JIMz"]
+language = "en"
+multilingual = false
+src = "src"
+title = "notes"
+
+[build]
+build-dir = "../docs"
+create-missing = true
+
