@@ -1,0 +1,15 @@
+[book]
+authors = ["JIMz"]
+language = "en"
+multilingual = false
+src = "src"
+title = "jimz.cc/notes"
+
+[build]
+build-dir = "../docs"
+create-missing = true
+
+
+[output.html]
+no-section-label = true
+additional-css = ["css/dallmo.css", "css/dallmo-highlight.css"]

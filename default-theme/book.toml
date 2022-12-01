@@ -1,0 +1,6 @@
+[book]
+authors = ["JIMz"]
+language = "en"
+multilingual = false
+src = "src"
+title = "default-theme"

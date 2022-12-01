@@ -1,7 +1,6 @@
 /*
 Based off of the Ayu theme
 Original by Dempfi (https://github.com/dempfi/ayu)
-testtest
 */
 
 .hljs {
@@ -9,7 +8,7 @@ testtest
   overflow-x: auto;
   background2: #191f26;
   background0: rgb(61, 61, 61);
-  background: red;
+  background: purple;
   color: #e6e1cf;
 }
 

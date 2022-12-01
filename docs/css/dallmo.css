@@ -1,0 +1,14 @@
+/*
+    for the theme dallmo
+*/
+
+
+/*
+    highlights
+*/
+.hljs {
+    display: block;
+    overflow-x: auto;
+    background: yellow;
+    color: red;
+}
