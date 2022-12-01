@@ -1,22 +1,18 @@
 /*
 Based off of the Ayu theme
 Original by Dempfi (https://github.com/dempfi/ayu)
-testtest
 */
 
 .hljs {
   display: block;
   overflow-x: auto;
-  background2: #191f26;
-  background0: rgb(61, 61, 61);
-  background: red;
+  background: #191f26;
   color: #e6e1cf;
 }
 
 .hljs-comment,
 .hljs-quote {
-  color0: #5c6773;
-  color: red;
+  color: #5c6773;
   font-style: italic;
 }
 

@@ -290,7 +290,6 @@ function playground_text(playground) {
     var themeColorMetaTag = document.querySelector('meta[name="theme-color"]');
     var stylesheets = {
         ayuHighlight: document.querySelector("[href$='ayu-highlight.css']"),
-        dallmo_highlight: document.querySelector("[href$='dallmo-highlight.css']"),
         tomorrowNight: document.querySelector("[href$='tomorrow-night.css']"),
         highlight: document.querySelector("[href$='highlight.css']"),
     };
@@ -337,13 +336,6 @@ function playground_text(playground) {
             stylesheets.ayuHighlight.disabled = false;
             stylesheets.tomorrowNight.disabled = true;
             stylesheets.highlight.disabled = true;
-            ace_theme = "ace/theme/tomorrow_night";
-        } else if (theme == 'dallmo') {
-            stylesheets.ayuHighlight.disabled = false;
-            //stylesheets.dallmo_highlight.disabled = false;
-            stylesheets.tomorrowNight.disabled = true;
-            stylesheets.highlight.disabled = true;
-            //ace_theme = "ace/theme/dawn";
             ace_theme = "ace/theme/tomorrow_night";
         } else {
             stylesheets.ayuHighlight.disabled = true;

@@ -12,4 +12,4 @@ create-missing = true
 
 [output.html]
 no-section-label = true
-additional-css = ["css/dallmo.css", "css/dallmo-highlight.css"]
+#additional-css = ["css/dallmo.css", "css/dallmo-highlight.css"]
