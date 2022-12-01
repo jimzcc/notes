@@ -8,8 +8,10 @@ title = "jimz.cc/notes"
 [build]
 build-dir = "../docs"
 create-missing = true
+extra-watch-dirs = ["css"]             # directories to watch for triggering builds
 
 
 [output.html]
 no-section-label = true
 additional-css = ["css/dallmo.css", "css/dallmo-highlight.css"]
+
